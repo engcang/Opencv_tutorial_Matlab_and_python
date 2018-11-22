@@ -52,3 +52,4 @@ You can see build information if built successfully
 ~~~MATLAB
 >> cv
 ~~~
+to check if built well
