@@ -14,9 +14,8 @@
   figure(1); imshow(color_image);
   figure(2); imshow(HSV_image);
   ~~~
-  <br>
   1.For my case, used ROS to get image <br>
-  2.**cv.cvtColor(color_image,'BGR2HSV');** transforms RGB image into HSV image <br>
+  2.**cv.cvtColor(color_image,'BGR2HSV');** transforms RGB image into HSV image <br><br>
 <p align="left">
 <img src="https://github.com/engcang/image-files/blob/master/opencv/raw.JPG" width="360" hspace="30"/>
 <img src="https://github.com/engcang/image-files/blob/master/opencv/hsv.JPG" width="360" hspace="30"/>  
@@ -34,11 +33,14 @@
     figure(4);imshow(drew_img);
   end
   ~~~
-  <br>
   3.Using **cv.inRange**, Mask image in HSV color range from [14,0,120] to [255,200,220] (approximately white and yellow line)
   4.**LSD=cv.LineSegmentDetector** makes handler for line detector
   5.**LSD.detect** returns lines (if exist)
   6.**LSD.drawSegments** draw lines on image
+<p align="center">
+<img src="https://github.com/engcang/image-files/blob/master/opencv/cropped_Lines.JPG" width="480" hspace="0"/>
+</p>
+
 <br><br>
 ### ● Line Detection for raw image
   ~~~MATLAB
