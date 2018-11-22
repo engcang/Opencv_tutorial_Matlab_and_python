@@ -42,13 +42,14 @@
 </p>
 
 <br>
+
 ### ● Line Detection for raw image
   ~~~MATLAB
   lines2=LSD.detect(rgb2gray(color_image));
   drew_img2=LSD.drawSegments(color_image,lines2);
   figure(5);imshow(drew_img2);
   ~~~
-  + For 3 channel (color) image, must convert it to one channel image like gray scale
+  + For 3 channel (color) image, must convert it to one channel image like gray scale <br>
   <p align="center">
   <img src="https://github.com/engcang/image-files/blob/master/opencv/raw_LineSeg.JPG" width="480" hspace="0"/>
   </p>
