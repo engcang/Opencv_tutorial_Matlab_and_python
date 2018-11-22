@@ -33,8 +33,8 @@ You can see build information if built successfully
 ## ● Windows version
 + [Download Mexopencv here](https://github.com/kyamagu/mexopencv/zipball/master), from original [mexopencv](https://kyamagu.github.io/mexopencv/)
 + Extract downloaded .zip file and then read **README.md** inside using MATLAB to know which version of OpenCV is needed
-<p align="left">
-<img src="https://github.com/engcang/image-files/blob/master/opencv/cvversion.JPG" width="450" hspace="120"/>
-</p>
+  <p align="left">
+  <img src="https://github.com/engcang/image-files/blob/master/opencv/cvversion.JPG" width="450" hspace="120"/>
+  </p>
 + [Download OpenCV here](https://opencv.org/releases.html) for the version checked above for **"Win pack"** <br>
 + dfdf
