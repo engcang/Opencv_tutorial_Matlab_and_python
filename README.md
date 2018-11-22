@@ -8,7 +8,7 @@
 <br><br>
 ## ● MATLAB version
 + [OpenCV build(install) for MATLAB /Linux,Windows](https://github.com/engcang/Opencv_tutorial_Matlab_and_python/tree/master/OpenCV_build_MATLAB)
-+ [HSV color convert and LineSegmentDetect](https://github.com/engcang/Opencv_tutorial_Matlab_and_python/tree/master/HSV%20color%20convert%20and%20LineSegmentDetect)
++ [HSV color convert and LineSegmentDetect](https://github.com/engcang/Opencv_tutorial_Matlab_and_python/tree/master/HSV_cvt_LSD_MATLAB)
 + [Feature points Matching]()
 + [Feature points matching within CascadeObjectDetector classified image]()
 <br>
