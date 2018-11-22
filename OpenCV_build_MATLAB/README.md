@@ -11,10 +11,28 @@
 + [Windows version build](#-windows-version) below
 + [Linux version build](https://github.com/kyamagu/mexopencv/wiki/Installation-(Linux,-MATLAB,-OpenCV-3))
 <br><br>
+## ● Linux version
++ Follow the instructions above link
++ Or simply use [opencv_matlab_linux.sh](https://github.com/engcang/Opencv_tutorial_Matlab_and_python/blob/master/OpenCV_build_MATLAB/opencv_matlab_linux.sh), before use, **MUST EDIT 'MATLABDIR' at last line**
+~~~shell
+$ cd
+$ git clone https://github.com/engcang/Opencv_tutorial_Matlab_and_python && cd ~/cd Opencv_tutorial_Matlab_and_python/OpenCV_build_MATLAB/
+$ chmod +x opencv_matlab_linux.sh
+$ ./opencv_matlab_linux.sh
+~~~
++ Then Execute MATLAB and
+~~~MATLAB
+>> cd('~/cv/mexopencv')
+>> addpath('~/cv/mexopencv')
+>> addpath('~/cv/mexopencv/opencv_contrib')
+>> savepath()
+>> cv.getBuildInformation()
+~~~
+<br><br>
 ## ● Windows version
 + [Download Mexopencv here](https://github.com/kyamagu/mexopencv/zipball/master), from original [mexopencv](https://kyamagu.github.io/mexopencv/)
 + Extract downloaded .zip file and then read **README.md** inside using MATLAB to know which version of OpenCV is needed
 <p align="left">
-<img src="https://github.com/engcang/image-files/blob/master/opencv/cvversion.JPG" width="400" hspace="100"/>
+<img src="https://github.com/engcang/image-files/blob/master/opencv/cvversion.JPG" width="450" hspace="120"/>
 </p>
-+
++ [Download OpenCV here](https://opencv.org/releases.html) for the version checked above for **"Win pack"**
