@@ -7,17 +7,18 @@
 
 ## [OpenCV](https://opencv.org/)
 + Open Source Library for Computer Vision, developed for Real-time Operation<br>
-+ [Windows version](#windows-version)
-+ [Linux version](#linux-version)
++ [Windows version](#-windows-version)
++ [Linux version](#-linux-version)
 <br><br>
 ## ● Windows version
 + [OpenCV build(install) for MATLAB]()
 <br>
 
-<p align="left">
-<img src="" width="500" hspace="50"/>
-</p>
 </br></br>
 
 ## ● Linux version
 + 
+
+<p align="left">
+<img src="" width="500" hspace="50"/>
+</p>
