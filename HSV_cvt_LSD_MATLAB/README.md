@@ -35,7 +35,7 @@
   ~~~
   3.Using **cv.inRange**, Mask image in HSV color range from [14,0,120] to [255,200,220] (approximately white and yellow line) <br>
   4.**LSD=cv.LineSegmentDetector** makes handler for line detector <br>
-  5.**LSD.detect** returns lines (if exist) <br>
+  5.**LSD.detect** returns lines (if exist) for the given image, in this case **mask** was given after .*255 cause it is Logical type value(Only 0 or 1)<br>
   6.**LSD.drawSegments** draw lines on image <br><br>
 <p align="center">
 <img src="https://github.com/engcang/image-files/blob/master/opencv/cropped_Lines.jpg" width="480" hspace="0"/>
