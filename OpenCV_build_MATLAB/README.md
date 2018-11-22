@@ -1,7 +1,7 @@
 # Opencv Build for MATLAB
 + Using [mexopencv](https://kyamagu.github.io/mexopencv/)
-+ Original Build source for [Windows](https://github.com/kyamagu/mexopencv/wiki/Installation-%28Windows%2C-MATLAB%2C-OpenCV-3%29)
-+ Original Build source for [Linux](https://github.com/kyamagu/mexopencv/wiki/Installation-(Linux,-MATLAB,-OpenCV-3))
++ Original Build source for Windows [here](https://github.com/kyamagu/mexopencv/wiki/Installation-%28Windows%2C-MATLAB%2C-OpenCV-3%29)
++ Original Build source for Linux [here](https://github.com/kyamagu/mexopencv/wiki/Installation-(Linux,-MATLAB,-OpenCV-3))
 + MEX files are Matlab EXcutable files
 + Of course MATLAB is necessary
 </br></br>
@@ -31,10 +31,19 @@ $ ./opencv_matlab_linux.sh
 You can see build information if built successfully
 <br><br>
 ## ● Windows version
++ **Windows SDK** or **Microsoft Visual C++ 201X** is necessary _mex -setup c++_ below
 + [Download Mexopencv here](https://github.com/kyamagu/mexopencv/zipball/master), from original [mexopencv](https://kyamagu.github.io/mexopencv/)
 + Extract downloaded .zip file and then read **README.md** inside using MATLAB to know which version of OpenCV is needed
   <p align="left">
   <img src="https://github.com/engcang/image-files/blob/master/opencv/cvversion.JPG" width="450" hspace="120"/>
   </p>
 + [Download OpenCV here](https://opencv.org/releases.html) for the version checked above for **"Win pack"** <br>
-+ dfdf
++ Execute MATLAB and
+~~~MATLAB
+>> mex –setup c++
+>> addpath('C:\path\to\mexopencv')
+>> mexopencv.make('opencv_path', 'C:\OpenCV\build')
+>> addpath('C:\path\to\mexopencv\opencv_contrib')
+>> mexopencv.make('opencv_path','C:\OpenCV\build', 'opencv_contrib',true)
+>> savepath()
+~~~
