@@ -16,7 +16,7 @@
 + Or simply use [opencv_matlab_linux.sh](https://github.com/engcang/Opencv_tutorial_Matlab_and_python/blob/master/OpenCV_build_MATLAB/opencv_matlab_linux.sh), before use, **MUST EDIT 'MATLABDIR' at last line**
 ~~~shell
 $ cd
-$ git clone https://github.com/engcang/Opencv_tutorial_Matlab_and_python && cd ~/cd Opencv_tutorial_Matlab_and_python/OpenCV_build_MATLAB/
+$ git clone https://github.com/engcang/Opencv_tutorial_Matlab_and_python && cd ~/Opencv_tutorial_Matlab_and_python/OpenCV_build_MATLAB/
 $ chmod +x opencv_matlab_linux.sh
 $ ./opencv_matlab_linux.sh
 ~~~
