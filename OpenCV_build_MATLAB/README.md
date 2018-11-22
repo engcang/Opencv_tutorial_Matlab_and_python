@@ -28,6 +28,7 @@ $ ./opencv_matlab_linux.sh
 >> savepath()
 >> cv.getBuildInformation()
 ~~~
+You can see build information if built successfully
 <br><br>
 ## ● Windows version
 + [Download Mexopencv here](https://github.com/kyamagu/mexopencv/zipball/master), from original [mexopencv](https://kyamagu.github.io/mexopencv/)
@@ -35,4 +36,5 @@ $ ./opencv_matlab_linux.sh
 <p align="left">
 <img src="https://github.com/engcang/image-files/blob/master/opencv/cvversion.JPG" width="450" hspace="120"/>
 </p>
-+ [Download OpenCV here](https://opencv.org/releases.html) for the version checked above for **"Win pack"**
++ [Download OpenCV here](https://opencv.org/releases.html) for the version checked above for **"Win pack"** <br>
++ dfdf
