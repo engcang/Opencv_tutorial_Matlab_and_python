@@ -8,14 +8,13 @@
 
 ## [OpenCV](https://opencv.org/)
 + Open Source Library for Computer Vision, developed for Real-time Operation<br>
-+ [Windows version](#-windows-version) below
-+ [Linux version](https://github.com/kyamagu/mexopencv/wiki/Installation-(Linux,-MATLAB,-OpenCV-3))
++ [Windows version build](#-windows-version) below
++ [Linux version build](https://github.com/kyamagu/mexopencv/wiki/Installation-(Linux,-MATLAB,-OpenCV-3))
 <br><br>
 ## ● Windows version
 + [Download Mexopencv here](https://github.com/kyamagu/mexopencv/zipball/master), from original [mexopencv](https://kyamagu.github.io/mexopencv/)
-+ Extract downloaded .zip file and then read README.md inside using MATLAB
-<br><br>
-
++ Extract downloaded .zip file and then read **README.md** inside using MATLAB to know which version of OpenCV is needed
 <p align="left">
-<img src="" width="500" hspace="50"/>
+<img src="https://github.com/engcang/image-files/blob/master/opencv/cvversion.JPG" width="400" hspace="100"/>
 </p>
++
