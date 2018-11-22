@@ -34,5 +34,5 @@
   figure(5);imshow(drew_img2);
   ~~~
   <p align="center">
-  <img src="https://github.com/engcang/image-files/tree/master/opencv/raw_LineSeg.JPG" width="480" hspace="0"/>
+  <img src="https://github.com/engcang/image-files/blob/master/opencv/raw_LineSeg.jpg" width="480" hspace="0"/>
   </p>
