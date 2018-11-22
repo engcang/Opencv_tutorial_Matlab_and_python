@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt-get autoremove libopencv-dev
+#sudo apt-get autoremove libopencv-dev
 sudo apt-get -y install build-essential cmake pkg-config git
 sudo apt-get -y install zlib1g-dev libjpeg-dev libpng12-dev libpng16-dev libtiff5-dev libjasper-dev libopenexr-dev
 sudo apt-get -y install libavcodec-dev libavformat-dev libswscale-dev
@@ -67,4 +67,4 @@ unzip mexopencv-master.zip && mv mexopencv-master mexopencv
 
 #matlab directory should be edited 
 cd ~/cv/mexopencv
-make MATLABDIR=~/Document/Matlab2018 WITH_CONTRIB=true all contrib
+make MATLABDIR=~/Documents/Matlab2018 WITH_CONTRIB=true all contrib
