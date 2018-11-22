@@ -15,7 +15,11 @@
   figure(2); imshow(HSV_image);
   ~~~
   1.For my case, used ROS to get image <br>
-  2.**cv.cvtColor(color_image,'BGR2HSV');** transforms RGB image into HSV image
+  2.**cv.cvtColor(color_image,'BGR2HSV');** transforms RGB image into HSV image <br>
+  <p align="left">
+  <img src="https://github.com/engcang/image-files/blob/master/opencv/raw.JPG" width="360" hspace="30"/>
+  <img src="https://github.com/engcang/image-files/blob/master/opencv/hsv.JPG" width="360" hspace="30"/>  
+  </p>
 <br><br>
 ### ● LineSegmentDetection
   ~~~MATLAB
