@@ -38,6 +38,7 @@ You can see build information if built successfully
   <img src="https://github.com/engcang/image-files/blob/master/opencv/cvversion.JPG" width="450" hspace="120"/>
   </p>
 + [Download OpenCV here](https://opencv.org/releases.html) for the version checked above for **"Win pack"** <br>
++ Extract downloaded **OpenCV Win pack** file
 + Execute MATLAB and
 ~~~MATLAB
 >> mex –setup c++
@@ -46,4 +47,8 @@ You can see build information if built successfully
 >> addpath('C:\path\to\mexopencv\opencv_contrib')
 >> mexopencv.make('opencv_path','C:\OpenCV\build', 'opencv_contrib',true)
 >> savepath()
+~~~
++ Then simply type
+~~~MATLAB
+>> cv
 ~~~
