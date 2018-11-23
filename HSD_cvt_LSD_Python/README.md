@@ -15,13 +15,16 @@
   R_mask = cv2.inRange(crop_R,(21,50,100),(36,255,255))
   ~~~
   <br>
+  
   1.For my case, used ROS or OpenCV to get image and setting the [row,col] range can easily crop the image<br>
   2.**cv.cvtColor(color_image, cv2.COLOR_BGR2HSV)** transforms RGB **cropped** image into HSV image <br><br>
+  
 <p align="center">
 <img src="https://github.com/engcang/image-files/blob/master/opencv/py_raw.JPG" width="480" hspace="30"/>
 </p>
 <br>
-Showing Raw image
+        Showing Raw image
+
 <p align="left">
 <img src="https://github.com/engcang/image-files/blob/master/opencv/py_white_mask.JPG" width="360" hspace="30"/>  
 <img src="https://github.com/engcang/image-files/blob/master/opencv/py_mask2.JPG" width="360" hspace="30"/>  
@@ -53,7 +56,7 @@ Showing Raw image
   5.**LSD.detect** returns lines (if exist) for the given image, in this case **mask** was given after .*255 cause it is Logical type value(Only 0 or 1)<br>
   6.**LSD.drawSegments** draw lines on image <br><br>
 <p align="center">
-<img src="https://github.com/engcang/image-files/blob/master/opencv/cropped_Lines.jpg" width="480" hspace="0"/>
+<img src="https://github.com/engcang/image-files/blob/master/opencv/py_cropped_lines.JPG" width="480" hspace="0"/>
 </p>
 
 <br>
