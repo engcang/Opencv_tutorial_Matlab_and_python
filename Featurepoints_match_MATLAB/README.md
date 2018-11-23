@@ -50,6 +50,7 @@
         disp('not enough feature points pairs')
   end
   ~~~
+  <br>
   6.**estimateGeometricTransform()** Uses RANSAC algorithm to remove outliers <br>
 
 <br>
@@ -57,4 +58,5 @@
 <img src="https://github.com/engcang/image-files/blob/master/opencv/SURF_RANSAC.gif" width="1021" hspace="0"/>
 </p>
 <br>
+
 + We can observe that less pairs of feature points are matched due to RANSAC
