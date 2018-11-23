@@ -16,8 +16,8 @@
   1.Get reference image to be compared and converted to gray scale <br><br>
   2.**detectSURFFeatures()** finds SURF features structure variable <br><br>
   3.**extractFeatures()** function extract _features value_ to be compared and _validPts_ which are location of feature points <br>
-
 <br>
+
 ### ● Get feature points from Target image and match them
   ~~~MATLAB
   % feature extraction of defect
@@ -43,7 +43,7 @@
   ~~~MATLAB
   % Define Geometric Transformation Objects
   try
-    [tform,inlierpoints1,inlierpoints2] = estimateGeometricTransform(def_matched_pts, ref_matched_pts,'affine'); %RANSAC to save only inlier, 'similarity','projective' https://kr.mathworks.com/help/vision/ref/estimategeometrictransform.html
+    [tform,inlierpoints1,inlierpoints2] = estimateGeometricTransform(def_matched_pts, ref_matched_pts,'affine'); %RANSAC to save only inlier, 'similarity','projective' can be chosen
     figure(4); % Draw the lines to matched points
     showMatchedFeatures(def_img, ref_img, inlierpoints1, inlierpoints2, 'montage');    %showing matched features (only inliers)
   catch
