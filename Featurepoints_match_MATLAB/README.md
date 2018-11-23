@@ -50,8 +50,7 @@
         disp('not enough feature points pairs')
   end
   ~~~
-  <br>
-  6.**estimateGeometricTransform()** Uses RANSAC algorithm to remove outliers <br>
+  <br>6.**estimateGeometricTransform()** Uses RANSAC algorithm to remove outliers <br><br>
 
 <br>
 <p align="center">
