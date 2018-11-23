@@ -14,6 +14,7 @@
     if np.shape(bbox_start)[0]!=0:
         if color_pixel_number(hsv,[(170,150,80),(180,255,130)],bbox_start)>300: #pixel number condition should be tuned
             print('start_sign detected')
+            cv2.rectangle(img,(bbox_start[0][0],bbox_start[0][1]),(bbox_start[0][0]+bbox_start[0][2],bbox_start[0][1]+bbox_start[0][3]),(100,255,0), 2)
   ~~~
 <br>
 
