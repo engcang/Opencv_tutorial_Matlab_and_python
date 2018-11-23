@@ -25,7 +25,7 @@
 
 4.using _**detected_img**_ from above, count pixel numbers inside rectangle(_**detected_img**_) which is in range of HSV values of wanted object <br><br>
 
-5.If Detected, print('sign detected') <br><br>
+5.If Detected, print('sign detected') and show image by **cv2.imshow()** <br><br>
 
 + Pixel number counting function
   ~~~python
