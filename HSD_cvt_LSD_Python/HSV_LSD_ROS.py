@@ -10,11 +10,6 @@ import rospy
 import roslib
 import cv2
 
-from nav_msgs.msg import Odometry
-from geometry_msgs.msg import Twist
-from sensor_msgs.msg import CompressedImage
-from tf.transformations import euler_from_quaternion, quaternion_from_euler
-
 global LSD
 LSD = cv2.createLineSegmentDetector(0)
 
