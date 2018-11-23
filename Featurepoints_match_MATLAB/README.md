@@ -31,16 +31,15 @@
     figure(3);
     showMatchedFeatures(def_img, ref_img, def_matched_pts, ref_matched_pts, 'montage'); % showing matched features
   ~~~
-  4.Get reference image to be compared and converted to gray scale <br>
-  5.**detectSURFFeatures()** finds SURF features structure variable <br>
-  6.**extractFeatures()** function extract _features value_ to be compared and _validPts_ which are location of feature points <br>
-  7.
+  4.As same with reference image, get image and detect SURF features <br>
+  5.**showMatchedFeatures()** shows the features of reference and target image matched in _**'montage'**_ method <br>
+<br>
 <p align="center">
 <img src="https://github.com/engcang/image-files/blob/master/opencv/SURF.gif" width="1021" hspace="0"/>
 </p>
 <br>
 <br><br>
-### ● Apply RANSAC algorithm to see only inliers
+### ● [Optional] Apply RANSAC algorithm to see only inliers
   ~~~MATLAB
   % Define Geometric Transformation Objects
   try
