@@ -16,7 +16,8 @@
   ~~~
   <br>
   
-  1.For my case, used ROS or OpenCV to get image and setting the [row,col] range can easily crop the image
+  1.For my case, used ROS or OpenCV to get image and setting the [row,col] range can easily crop the image <br>
+
     + cropped image to see right in front of forward path <br><br>
   2.**cv2.cvtColor(color_image, cv2.COLOR_BGR2HSV)** transforms RGB **cropped** image into HSV image <br><br>
   3.Using **cv2.inRange**, Mask image in HSV color range (approximately white and yellow line) <br>
