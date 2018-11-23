@@ -1,7 +1,7 @@
 # Detect object using _**CascadeClassifier**_ AND **Color detection** in OpenCV, Python
 + Using trained result _**.xml**_ file from [_here_](https://github.com/engcang/CascadeObjectDetector_MATLAB_Python/tree/master/Train_Detector_MATLAB) via MATLAB
 + Detecting code is using from [_here_](https://github.com/engcang/CascadeObjectDetector_MATLAB_Python/tree/master/Detect_Python)
-</br></br>
+</br></br><br>
 
 ## Detector code running
 + Detect via classifier and count the pixel numbers <br>
@@ -17,7 +17,7 @@
   ~~~
 <br>
 
-1.For me, used ROS to get and consequtive images <br><br>
+1.For me, used ROS to get and consequtive images <br>
 
 2.make detector handler using _**'cv2.CascadeClassifier('name.xml')'**_ <br><br>
 
