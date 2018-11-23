@@ -18,13 +18,13 @@
   1.For my case, used ROS or OpenCV to get image and setting the [row,col] range can easily crop the image<br>
   2.**cv.cvtColor(color_image, cv2.COLOR_BGR2HSV)** transforms RGB **cropped** image into HSV image <br><br>
 <p align="center">
-<img src="https://github.com/engcang/image-files/blob/master/opencv/py_raw.jpg" width="480" hspace="30"/>
+<img src="https://github.com/engcang/image-files/blob/master/opencv/py_raw.JPG" width="480" hspace="30"/>
 </p>
 <br>
 Showing Raw image
 <p align="left">
 <img src="https://github.com/engcang/image-files/blob/master/opencv/py_white_mask.JPG" width="360" hspace="30"/>  
-<img src="https://github.com/engcang/image-files/blob/master/opencv/pyt_mask2.JPG" width="360" hspace="30"/>  
+<img src="https://github.com/engcang/image-files/blob/master/opencv/py_mask2.JPG" width="360" hspace="30"/>  
 </p>
 
 <br><br>
