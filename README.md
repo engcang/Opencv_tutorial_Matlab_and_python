@@ -14,6 +14,5 @@
 <br>
 
 ## ● Python version
-+ [Color detection and masking]()
 + [HSV color convert and LineSegmentDetect for MobileRobot LaneKeeping]()
 + [HSV color detection within CascadeClassifier classified image]()
