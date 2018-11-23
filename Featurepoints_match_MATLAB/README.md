@@ -1,6 +1,6 @@
 # Feature points detect and match in MATLAB (SURF)
-+ Speeded-Up Robust Features detect [MATLAB html in Computer Vision System Toolbox](https://kr.mathworks.com/help/vision/ref/detectsurffeatures.html)
-+ RANSAC algorithm to get inliers [MATLAB html in Computer Vision System Toolbox](https://kr.mathworks.com/help/vision/ref/estimategeometrictransform.html)
++ Speeded-Up Robust Features detect [see MATLAB html in Computer Vision System Toolbox](https://kr.mathworks.com/help/vision/ref/detectsurffeatures.html)
++ RANSAC algorithm to get inliers [see MATLAB html in Computer Vision System Toolbox](https://kr.mathworks.com/help/vision/ref/estimategeometrictransform.html)
 <br><br><br>
 
 ## Code explanation 
