@@ -26,8 +26,8 @@ while 1
     index_pairs = matchFeatures(ref_features, def_features);        % Compare and save matched pairs
     ref_matched_pts = ref_validPts(index_pairs(:,1)).Location;      % Location
     def_matched_pts = def_validPts(index_pairs(:,2)).Location;
-    %figure(3);
-    %showMatchedFeatures(def_img, ref_img, def_matched_pts, ref_matched_pts, 'montage'); % showing matched features
+    figure(3);
+    showMatchedFeatures(def_img, ref_img, def_matched_pts, ref_matched_pts, 'montage'); % showing matched features
     
     % Define Geometric Transformation Objects
     try
@@ -35,6 +35,6 @@ while 1
     figure(4); % Draw the lines to matched points
     showMatchedFeatures(def_img, ref_img, inlierpoints1, inlierpoints2, 'montage');    %showing matched features (only inliers)
     catch
-        disp('df')
+        disp('not enough feature points pairs')
     end
 end
