@@ -13,11 +13,11 @@
   ref_pts = detectSURFFeatures(ref_img_gray); % finds SURF features structure variable (Location)
   [ref_features,  ref_validPts] = extractFeatures(ref_img_gray,  ref_pts);  % (ref_features will be used to compare)
   ~~~
-  1.Get reference image to be compared and converted to gray scale <br>
-  2.**detectSURFFeatures()** finds SURF features structure variable <br>
+  1.Get reference image to be compared and converted to gray scale <br><br>
+  2.**detectSURFFeatures()** finds SURF features structure variable <br><br>
   3.**extractFeatures()** function extract _features value_ to be compared and _validPts_ which are location of feature points <br>
 
-<br><br>
+<br>
 ### ● Get feature points from Target image and match them
   ~~~MATLAB
   % feature extraction of defect
@@ -31,14 +31,14 @@
     figure(3);
     showMatchedFeatures(def_img, ref_img, def_matched_pts, ref_matched_pts, 'montage'); % showing matched features
   ~~~
-  4.As same with reference image, get image and detect SURF features <br>
-  5.**showMatchedFeatures()** shows the features of reference and target image matched in _**'montage'**_ method <br>
+  4.As same with reference image, get image and detect SURF features <br><br>
+  5.**showMatchedFeatures()** shows the features of reference and target image matched in _**'montage'**_ method <br><br>
 <br>
 <p align="center">
 <img src="https://github.com/engcang/image-files/blob/master/opencv/SURF.gif" width="1021" hspace="0"/>
 </p>
-<br>
-<br><br>
+<br><br><br>
+
 ### ● [Optional] Apply RANSAC algorithm to see only inliers
   ~~~MATLAB
   % Define Geometric Transformation Objects
@@ -50,7 +50,7 @@
         disp('not enough feature points pairs')
   end
   ~~~
-
+<br>
 <p align="center">
 <img src="https://github.com/engcang/image-files/blob/master/opencv/SURF_RANSAC.gif" width="1021" hspace="0"/>
 </p>
