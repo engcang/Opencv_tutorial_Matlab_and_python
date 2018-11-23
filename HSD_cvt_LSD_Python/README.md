@@ -22,8 +22,9 @@
 <p align="center">
 <img src="https://github.com/engcang/image-files/blob/master/opencv/py_raw.JPG" width="480" hspace="30"/>
 </p>
-<br>
-            + Showing Raw image <br>
+
++ Showing Raw image and masked image for White and masked image for Yellow <br>
+
 <br><br>
 
 <p align="left">
