@@ -1,14 +1,6 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Nov 23 10:10:26 2018
-
-@author: mason
-"""
-
 #!/usr/bin/env python
 """
 Created on Fri Nov  9 10:25:22 2018
-
 @author: mason
 """
 '''libraries'''
@@ -17,8 +9,6 @@ import numpy as np
 import rospy
 import roslib
 import cv2
-import sys
-import signal
 
 from nav_msgs.msg import Odometry
 from geometry_msgs.msg import Twist
@@ -27,11 +17,6 @@ from tf.transformations import euler_from_quaternion, quaternion_from_euler
 
 global LSD
 LSD = cv2.createLineSegmentDetector(0)
-
-def signal_handler(signal, frame): # ctrl + c -> exit program
-        print('You pressed Ctrl+C!')
-        sys.exit(0)
-signal.signal(signal.SIGINT, signal_handler)
 
 ''' class '''
 class robot():
@@ -81,7 +66,5 @@ if __name__=='__main__':
             cv2.imshow('raw',img)
             cv2.waitKey()
             turtle.keeping(hsv,img) 
-        except (KeyboardInterrupt, SystemExit):
-            sys.exit(0)
         except :
             print('got error')
