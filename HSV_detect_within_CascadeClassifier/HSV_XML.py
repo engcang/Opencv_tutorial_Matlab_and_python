@@ -67,7 +67,6 @@ if __name__ == '__main__':
             try:
                 img,hsv=cam.img_update()
                 cam.detector(img,hsv)
-                cam.sending(int(cam.f))
                 incoming=0
                 print(time.time()-a)
             except:
