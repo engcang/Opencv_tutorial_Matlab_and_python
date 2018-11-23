@@ -63,7 +63,7 @@ cam=camera()
 time.sleep(1.5)
 if __name__ == '__main__':
     while 1:
-        a=time.time()
+        #a=time.time()
         if incoming==1:
             try:
                 img,hsv=cam.img_update()
@@ -71,6 +71,6 @@ if __name__ == '__main__':
                 incoming=0
                 cv2.imshow('img',img)
                 if cv2.waitKey(1)>0: break
-                print(time.time()-a)
+                #print(time.time()-a)
             except:
                 print('error')
