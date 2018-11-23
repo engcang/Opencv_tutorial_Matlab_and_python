@@ -43,7 +43,7 @@ class camera:
         if np.shape(bbox_start)[0]!=0:
             if color_pixel_number(hsv,[(170,150,80),(180,255,130)],bbox_start)>300:
                 print('start_sign detected')
-                cv2.rectangle(img,(bbox_start[0],bbox_start[1]),(bbox_start[0]+bbox_start[2],bbox_start[1]+bbox_start[3]),(100,255,0), 2)
+                cv2.rectangle(img,(bbox_start[0][0],bbox_start[0][1]),(bbox_start[0][0]+bbox_start[0][2],bbox_start[0][1]+bbox_start[0][3]),(100,255,0), 2)
 
 def color_pixel_number(hsv,color,bbox):
     if np.shape(bbox)[0]>1:
