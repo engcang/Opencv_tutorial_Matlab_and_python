@@ -37,7 +37,7 @@
 <p align="center">
 <img src="https://github.com/engcang/image-files/blob/master/opencv/SURF.gif" width="1021" hspace="0"/>
 </p>
-<br><br><br>
+<br><br>
 
 ### ● [Optional] Apply RANSAC algorithm to see only inliers
   ~~~MATLAB
@@ -50,8 +50,11 @@
         disp('not enough feature points pairs')
   end
   ~~~
+  6.**estimateGeometricTransform()** Uses RANSAC algorithm to remove outliers <br>
+
 <br>
 <p align="center">
 <img src="https://github.com/engcang/image-files/blob/master/opencv/SURF_RANSAC.gif" width="1021" hspace="0"/>
 </p>
 <br>
++ We can observe that less pairs of feature points are matched due to RANSAC
